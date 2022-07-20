@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.logoContainer{
+    background-image: url("../src/plant.jpg");
+    background-size: cover;
+}
+
+.logoBox{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    background-color: rgba(0,0,0, 50%);
+}
+
+.logoBox img{
+    width: clamp(64px,108px,128px);
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
+
+.dataContainer{
+    display: flex;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+    margin: 8px;
+}
+
+li input{
+
+}
